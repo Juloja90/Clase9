@@ -122,6 +122,7 @@ footer {
   text-align: left !important;
   top: 15px;
   position: relative;
+
 }
 .logo {
   width: 100px;
@@ -157,14 +158,25 @@ i.fa-circle-plus {
     position: fixed;
     bottom: 40%;
     right: -300px;
-    width: 400px;
+    width: 300px;
     font-size: 60px;
     padding: 5px 10px;
   }
-  .logo {
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px ;
+    position: relative;
+    
+  }
+   .logo{
     width: 100px;
     position: relative;
-    left: 799px;
+    left: 20px;
     bottom: 15px;
   }
+   
 }
